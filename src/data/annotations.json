@@ -1,0 +1,34 @@
+[
+  { "type": "band", "id": "band-flood", "label": "THE FLOOD", "y": 800 },
+  { "type": "band", "id": "band-egypt", "label": "SLAVERY IN EGYPT", "y": 1800 },
+  { "type": "band", "id": "band-exile", "label": "EXILE IN BABYLON", "y": 3620 },
+
+  { "type": "label", "id": "lbl-judah", "label": "KINGDOM OF JUDAH", "x": 760, "y": 3000, "lineage": "judah" },
+  { "type": "label", "id": "lbl-israel", "label": "KINGDOM OF ISRAEL", "x": 1520, "y": 3000, "lineage": "israel" },
+  { "type": "region", "id": "rg-greco", "label": "GRECO-ROMAN PERIOD", "x": 400, "y": 3900, "w": 440, "h": 400 },
+
+  { "type": "timeline", "id": "t-creation", "side": "biblical", "label": "Creation", "date": "4113 BCE", "y": 0 },
+  { "type": "timeline", "id": "t-flood", "side": "biblical", "label": "The Flood", "date": "2457 BCE", "y": 800 },
+  { "type": "timeline", "id": "t-abraham", "side": "biblical", "label": "Abraham born", "date": "2167 BCE", "y": 1060 },
+  { "type": "timeline", "id": "t-jacob", "side": "biblical", "label": "Jacob born", "date": "2007 BCE", "y": 1420 },
+  { "type": "timeline", "id": "t-egypt", "side": "biblical", "label": "Move to Egypt", "date": "1877 BCE", "y": 1800 },
+  { "type": "timeline", "id": "t-exodus", "side": "biblical", "label": "The Exodus", "date": "1447 BCE", "y": 2060 },
+  { "type": "timeline", "id": "t-david", "side": "biblical", "label": "David king", "date": "1010 BCE", "y": 2700 },
+  { "type": "timeline", "id": "t-temple", "side": "biblical", "label": "1st Temple built", "date": "967 BCE", "y": 2880 },
+  { "type": "timeline", "id": "t-divided", "side": "biblical", "label": "Divided kingdom", "date": "931 BCE", "y": 3000 },
+  { "type": "timeline", "id": "t-samaria", "side": "biblical", "label": "Fall of Samaria", "date": "722 BCE", "y": 3320 },
+  { "type": "timeline", "id": "t-exile", "side": "biblical", "label": "Exile to Babylon", "date": "586 BCE", "y": 3620 },
+  { "type": "timeline", "id": "t-jesus", "side": "biblical", "label": "Birth of Jesus", "date": "c. 5 BCE", "y": 4150 },
+
+  { "type": "timeline", "id": "s-writing", "side": "secular", "label": "First writing", "date": "c. 3200 BCE", "y": 120 },
+  { "type": "timeline", "id": "s-eba", "side": "secular", "label": "Early Bronze Age", "y": 760 },
+  { "type": "timeline", "id": "s-42k", "side": "secular", "label": "4.2-kiloyear event", "date": "c. 2200 BCE", "y": 1000 },
+  { "type": "timeline", "id": "s-mba", "side": "secular", "label": "Middle Bronze Age", "y": 1420 },
+  { "type": "timeline", "id": "s-thera", "side": "secular", "label": "Minoan eruption", "date": "c. 1600 BCE", "y": 1880 },
+  { "type": "timeline", "id": "s-lba", "side": "secular", "label": "Late Bronze Age", "y": 2060 },
+  { "type": "timeline", "id": "s-collapse", "side": "secular", "label": "Bronze Age collapse", "date": "c. 1177 BCE", "y": 2560 },
+  { "type": "timeline", "id": "s-assyria", "side": "secular", "label": "Rise of Assyria", "date": "911 BCE", "y": 3060 },
+  { "type": "timeline", "id": "s-babylon", "side": "secular", "label": "Rise of Babylon", "date": "626 BCE", "y": 3540 },
+  { "type": "timeline", "id": "s-persia", "side": "secular", "label": "Rise of Persia", "date": "550 BCE", "y": 3700 },
+  { "type": "timeline", "id": "s-rome", "side": "secular", "label": "Roman rule of Judea", "date": "63 BCE", "y": 3880 }
+]

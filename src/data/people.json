@@ -1,0 +1,373 @@
+[
+  { "id": "adam", "name": "Adam", "meaning": "man; of the ground", "lineage": "core", "tier": 1, "born": -4113, "died": -3183, "approx": true,
+    "summary": "The first man, formed from the dust and given the breath of life. Placed in Eden, he and Eve disobeyed God's command, bringing sin and death into the world.",
+    "references": [
+      { "ref": "Genesis 1:26-31", "label": "Creation of humankind" },
+      { "ref": "Genesis 2:4-25", "label": "Formed from dust; Eden" },
+      { "ref": "Genesis 3", "label": "The Fall" },
+      { "ref": "Genesis 5:1-5", "label": "Adam's line" },
+      { "ref": "Romans 5:12-21", "label": "Adam and Christ" } ] },
+
+  { "id": "eve", "name": "Eve", "meaning": "living; life-giver", "lineage": "core", "tier": 1,
+    "summary": "The first woman, created as a partner for Adam and called 'the mother of all living.'",
+    "references": [
+      { "ref": "Genesis 2:18-25", "label": "Created as a partner" },
+      { "ref": "Genesis 3", "label": "The Fall" },
+      { "ref": "Genesis 4:1-2", "label": "Mother of Cain and Abel" } ] },
+
+  { "id": "cain", "name": "Cain", "meaning": "acquired", "lineage": "core", "tier": 3,
+    "summary": "Firstborn of Adam and Eve, a farmer who killed his brother Abel out of jealousy and was sent away as a wanderer.",
+    "references": [
+      { "ref": "Genesis 4:1-16", "label": "Cain and Abel" },
+      { "ref": "1 John 3:11-12", "label": "Do not be like Cain" } ] },
+
+  { "id": "abel", "name": "Abel", "meaning": "breath; vapor", "lineage": "core", "tier": 3,
+    "summary": "A shepherd whose offering God accepted; murdered by Cain. Hebrews remembers him as the first example of faith.",
+    "references": [
+      { "ref": "Genesis 4:1-10", "label": "Offering and murder" },
+      { "ref": "Hebrews 11:4", "label": "By faith Abel…" } ] },
+
+  { "id": "seth", "name": "Seth", "meaning": "appointed", "lineage": "core", "tier": 3, "born": -3983, "died": -3071, "approx": true,
+    "summary": "Born after Abel's death; his line leads to Noah. In his days 'people began to call on the name of the LORD.'",
+    "references": [
+      { "ref": "Genesis 4:25-26", "label": "Birth of Seth" },
+      { "ref": "Genesis 5:3-8", "label": "Seth's line" } ] },
+
+  { "id": "enoch", "name": "Enoch", "meaning": "dedicated", "lineage": "core", "tier": 3,
+    "summary": "Seventh from Adam, he 'walked with God, and he was not, for God took him.'",
+    "references": [
+      { "ref": "Genesis 5:18-24", "label": "Walked with God" },
+      { "ref": "Hebrews 11:5", "label": "Taken up by faith" },
+      { "ref": "Jude 1:14-15", "label": "Enoch's prophecy" } ] },
+
+  { "id": "methuselah", "name": "Methuselah", "lineage": "core", "tier": 3,
+    "summary": "The longest-lived person in the Bible (969 years); grandfather of Noah.",
+    "references": [ { "ref": "Genesis 5:21-27", "label": "969 years" } ] },
+
+  { "id": "lamech", "name": "Lamech", "lineage": "core", "tier": 3,
+    "summary": "Father of Noah (not the Lamech of Cain's line). He named his son hoping he would bring comfort from the toil of the cursed ground.",
+    "references": [ { "ref": "Genesis 5:25-31", "label": "Father of Noah" } ] },
+
+  { "id": "noah", "name": "Noah", "meaning": "rest; comfort", "lineage": "core", "tier": 1, "born": -3057, "died": -2107, "approx": true,
+    "summary": "A righteous man who built the ark at God's command, preserving his family and the animals through the Flood. God then made a covenant with him, sealed by the rainbow.",
+    "references": [
+      { "ref": "Genesis 6:9-22", "label": "Building the ark" },
+      { "ref": "Genesis 7", "label": "The Flood" },
+      { "ref": "Genesis 8:1-19", "label": "The waters recede" },
+      { "ref": "Genesis 9:1-17", "label": "Covenant and rainbow" },
+      { "ref": "Hebrews 11:7", "label": "By faith Noah…" } ] },
+
+  { "id": "shem", "name": "Shem", "meaning": "name", "lineage": "core", "tier": 2,
+    "summary": "Eldest son of Noah, ancestor of the Semitic peoples and of Abraham.",
+    "references": [
+      { "ref": "Genesis 9:18-27", "label": "Noah's sons" },
+      { "ref": "Genesis 11:10-26", "label": "Shem to Abram" } ] },
+
+  { "id": "ham", "name": "Ham", "lineage": "core", "tier": 2,
+    "summary": "Son of Noah, ancestor of the peoples of Cush, Egypt, Put and Canaan in the Table of Nations.",
+    "references": [
+      { "ref": "Genesis 9:18-27", "label": "Noah's sons" },
+      { "ref": "Genesis 10:6-20", "label": "Sons of Ham" } ] },
+
+  { "id": "japheth", "name": "Japheth", "lineage": "core", "tier": 2,
+    "summary": "Son of Noah whose descendants (Gomer, Magog, Madai, Javan…) spread to the coastlands and the north.",
+    "references": [
+      { "ref": "Genesis 9:18-27", "label": "Noah's sons" },
+      { "ref": "Genesis 10:1-5", "label": "Sons of Japheth" } ] },
+
+  { "id": "terah", "name": "Terah", "lineage": "core", "tier": 3,
+    "summary": "Father of Abram, Nahor and Haran. He led his family from Ur of the Chaldeans toward Canaan but settled in Haran.",
+    "references": [ { "ref": "Genesis 11:24-32", "label": "From Ur to Haran" } ] },
+
+  { "id": "abraham", "name": "Abraham", "aliases": ["Abram"], "meaning": "father of a multitude", "lineage": "core", "tier": 1, "born": -2167, "died": -1992, "approx": true,
+    "summary": "Called by God to leave Ur for Canaan, Abraham received the covenant promise of land, descendants, and blessing for all nations. He is honoured as the father of faith by Jews, Christians and Muslims.",
+    "references": [
+      { "ref": "Genesis 12:1-9", "label": "The call of Abram" },
+      { "ref": "Genesis 15", "label": "The covenant" },
+      { "ref": "Genesis 17:1-14", "label": "New name; circumcision" },
+      { "ref": "Genesis 22:1-19", "label": "The binding of Isaac" },
+      { "ref": "Romans 4:1-12", "label": "Justified by faith" } ] },
+
+  { "id": "sarah", "name": "Sarah", "aliases": ["Sarai"], "meaning": "princess", "lineage": "core", "tier": 2,
+    "summary": "Abraham's wife, who laughed at the promise of a son in old age and bore Isaac at ninety.",
+    "references": [
+      { "ref": "Genesis 17:15-21", "label": "Sarai becomes Sarah" },
+      { "ref": "Genesis 18:1-15", "label": "Sarah laughs" },
+      { "ref": "Genesis 21:1-7", "label": "Birth of Isaac" },
+      { "ref": "Hebrews 11:11", "label": "By faith Sarah…" } ] },
+
+  { "id": "hagar", "name": "Hagar", "lineage": "core", "tier": 3,
+    "summary": "Sarah's Egyptian servant and mother of Ishmael. In the wilderness she named God 'the God who sees me.'",
+    "references": [
+      { "ref": "Genesis 16", "label": "The God who sees" },
+      { "ref": "Genesis 21:8-21", "label": "Hagar and Ishmael sent away" } ] },
+
+  { "id": "ishmael", "name": "Ishmael", "meaning": "God hears", "lineage": "core", "tier": 3,
+    "summary": "Abraham's firstborn son, through Hagar. God promised to make him a great nation.",
+    "references": [
+      { "ref": "Genesis 16:11-16", "label": "Birth" },
+      { "ref": "Genesis 21:8-21", "label": "In the wilderness" },
+      { "ref": "Genesis 25:12-18", "label": "Sons of Ishmael" } ] },
+
+  { "id": "haran", "name": "Haran", "lineage": "core", "tier": 3,
+    "summary": "Abraham's brother, who died in Ur; father of Lot.",
+    "references": [ { "ref": "Genesis 11:27-32", "label": "Family of Terah" } ] },
+
+  { "id": "lot", "name": "Lot", "lineage": "core", "tier": 3,
+    "summary": "Abraham's nephew, who settled near Sodom and was rescued before its destruction.",
+    "references": [
+      { "ref": "Genesis 13", "label": "Abram and Lot separate" },
+      { "ref": "Genesis 19:1-29", "label": "Sodom and Gomorrah" } ] },
+
+  { "id": "isaac", "name": "Isaac", "meaning": "he laughs", "lineage": "core", "tier": 1, "born": -2067, "died": -1887, "approx": true,
+    "summary": "The child of promise, born to Abraham and Sarah in their old age. Nearly sacrificed on Mount Moriah, he married Rebekah and became father of Esau and Jacob.",
+    "references": [
+      { "ref": "Genesis 21:1-7", "label": "Birth" },
+      { "ref": "Genesis 22:1-19", "label": "On Mount Moriah" },
+      { "ref": "Genesis 24", "label": "A wife for Isaac" },
+      { "ref": "Genesis 27", "label": "Jacob receives the blessing" } ] },
+
+  { "id": "rebekah", "name": "Rebekah", "aliases": ["Rebecca"], "lineage": "core", "tier": 2,
+    "summary": "Chosen at the well as Isaac's wife; mother of the twins Esau and Jacob. She helped Jacob obtain Isaac's blessing.",
+    "references": [
+      { "ref": "Genesis 24", "label": "At the well" },
+      { "ref": "Genesis 25:19-28", "label": "The twins" },
+      { "ref": "Genesis 27:1-17", "label": "The plan for the blessing" } ] },
+
+  { "id": "esau", "name": "Esau", "aliases": ["Edom"], "lineage": "core", "tier": 3,
+    "summary": "Jacob's twin, a hunter who sold his birthright for a meal; ancestor of the Edomites.",
+    "references": [
+      { "ref": "Genesis 25:19-34", "label": "The birthright" },
+      { "ref": "Genesis 27:30-41", "label": "The lost blessing" },
+      { "ref": "Genesis 33", "label": "Reconciliation with Jacob" } ] },
+
+  { "id": "jacob", "name": "Jacob", "aliases": ["Israel"], "meaning": "supplanter; later 'Israel', he strives with God", "lineage": "core", "tier": 1, "born": -2007, "died": -1860, "approx": true,
+    "summary": "Grandson of Abraham who obtained the birthright and blessing, dreamed of a stairway to heaven, wrestled with God and was renamed Israel. His twelve sons became the tribes of Israel.",
+    "references": [
+      { "ref": "Genesis 25:19-34", "label": "Birth and birthright" },
+      { "ref": "Genesis 28:10-22", "label": "Jacob's ladder" },
+      { "ref": "Genesis 29:15-30", "label": "Leah and Rachel" },
+      { "ref": "Genesis 32:22-32", "label": "Wrestling with God" },
+      { "ref": "Genesis 49", "label": "Blessing the twelve sons" } ] },
+
+  { "id": "leah", "name": "Leah", "lineage": "core", "tier": 2,
+    "summary": "Jacob's first wife and mother of six tribes, including Levi and Judah: the priestly and royal lines.",
+    "references": [
+      { "ref": "Genesis 29:15-35", "label": "Marriage and sons" },
+      { "ref": "Genesis 30:9-21", "label": "More children" } ] },
+
+  { "id": "rachel", "name": "Rachel", "lineage": "core", "tier": 2,
+    "summary": "Jacob's beloved wife and mother of Joseph and Benjamin. She died giving birth to Benjamin near Bethlehem.",
+    "references": [
+      { "ref": "Genesis 29:1-30", "label": "Jacob meets Rachel" },
+      { "ref": "Genesis 30:22-24", "label": "Birth of Joseph" },
+      { "ref": "Genesis 35:16-20", "label": "Death near Bethlehem" } ] },
+
+  { "id": "levi", "name": "Levi", "lineage": "levi", "tier": 2,
+    "summary": "Third son of Jacob and Leah. His descendants, the Levites, became Israel's priestly tribe, including Moses and Aaron.",
+    "references": [
+      { "ref": "Genesis 29:34", "label": "Birth" },
+      { "ref": "Genesis 49:5-7", "label": "Jacob's word to Levi" },
+      { "ref": "Deuteronomy 33:8-11", "label": "Moses blesses Levi" } ] },
+
+  { "id": "judah", "name": "Judah", "meaning": "praise", "lineage": "judah", "tier": 2,
+    "summary": "Fourth son of Jacob and Leah. He offered himself in Benjamin's place, and Jacob foretold that the sceptre would not depart from Judah: the line of David and of Jesus.",
+    "references": [
+      { "ref": "Genesis 38", "label": "Judah and Tamar" },
+      { "ref": "Genesis 44:18-34", "label": "Judah's plea" },
+      { "ref": "Genesis 49:8-12", "label": "The sceptre of Judah" } ] },
+
+  { "id": "tamar", "name": "Tamar", "lineage": "judah", "tier": 3,
+    "summary": "Judah's daughter-in-law, who secured her rights through Judah himself. Mother of the twins Perez and Zerah, she is named in Jesus' genealogy.",
+    "references": [
+      { "ref": "Genesis 38", "label": "Judah and Tamar" },
+      { "ref": "Matthew 1:3", "label": "In the genealogy of Jesus" } ] },
+
+  { "id": "joseph", "name": "Joseph", "meaning": "may he add", "lineage": "core", "tier": 1, "born": -1916, "died": -1806, "approx": true,
+    "summary": "Jacob's favoured son, sold into slavery by his brothers. He rose to rule Egypt under Pharaoh, saved his family from famine and forgave his brothers.",
+    "references": [
+      { "ref": "Genesis 37", "label": "Sold by his brothers" },
+      { "ref": "Genesis 41", "label": "Pharaoh's dreams" },
+      { "ref": "Genesis 45:1-15", "label": "Revealed to his brothers" },
+      { "ref": "Genesis 50:15-26", "label": "You meant evil; God meant good" } ] },
+
+  { "id": "benjamin", "name": "Benjamin", "meaning": "son of the right hand", "lineage": "israel", "tier": 3,
+    "summary": "Jacob's youngest son and Rachel's second child; ancestor of King Saul and the apostle Paul.",
+    "references": [
+      { "ref": "Genesis 35:16-18", "label": "Birth" },
+      { "ref": "Genesis 43:29-34", "label": "Joseph meets Benjamin" },
+      { "ref": "Philippians 3:5", "label": "Paul, of the tribe of Benjamin" } ] },
+
+  { "id": "perez", "name": "Perez", "meaning": "breach", "lineage": "judah", "tier": 3,
+    "summary": "Son of Judah and Tamar; ancestor of Boaz and David.",
+    "references": [
+      { "ref": "Genesis 38:27-30", "label": "Birth of the twins" },
+      { "ref": "Ruth 4:18-22", "label": "Perez to David" } ] },
+
+  { "id": "amram", "name": "Amram", "lineage": "levi", "tier": 3,
+    "summary": "A Levite, husband of Jochebed and father of Aaron, Moses and Miriam.",
+    "references": [ { "ref": "Exodus 6:16-20", "label": "Levi's descendants" } ] },
+
+  { "id": "jochebed", "name": "Jochebed", "lineage": "levi", "tier": 3,
+    "summary": "Mother of Moses. She hid him for three months, then placed him in a basket on the Nile.",
+    "references": [
+      { "ref": "Exodus 2:1-10", "label": "Moses in the basket" },
+      { "ref": "Numbers 26:59", "label": "Mother of Aaron, Moses, Miriam" } ] },
+
+  { "id": "miriam", "name": "Miriam", "lineage": "levi", "tier": 3,
+    "summary": "A prophetess and the sister of Moses, who led the women in song after the crossing of the sea.",
+    "references": [
+      { "ref": "Exodus 15:20-21", "label": "Miriam's song" },
+      { "ref": "Numbers 12", "label": "Miriam and Aaron oppose Moses" } ] },
+
+  { "id": "aaron", "name": "Aaron", "lineage": "levi", "tier": 2,
+    "summary": "Moses' older brother and spokesman, and Israel's first high priest. He made the golden calf, but God confirmed his priesthood when his staff budded.",
+    "references": [
+      { "ref": "Exodus 4:10-17", "label": "Spokesman for Moses" },
+      { "ref": "Exodus 28:1-4", "label": "Priestly garments" },
+      { "ref": "Exodus 32:1-24", "label": "The golden calf" },
+      { "ref": "Numbers 17", "label": "Aaron's staff buds" },
+      { "ref": "Numbers 20:22-29", "label": "Death of Aaron" } ] },
+
+  { "id": "moses", "name": "Moses", "meaning": "drawn out", "lineage": "levi", "tier": 1, "born": -1527, "died": -1407, "approx": true,
+    "summary": "Born a Hebrew in Egypt and raised in Pharaoh's household, Moses met God at the burning bush, led Israel out of slavery and received the Law at Sinai. He died within sight of the Promised Land.",
+    "references": [
+      { "ref": "Exodus 2:1-10", "label": "Birth" },
+      { "ref": "Exodus 3", "label": "The burning bush" },
+      { "ref": "Exodus 14", "label": "Crossing the sea" },
+      { "ref": "Exodus 20:1-17", "label": "The Ten Commandments" },
+      { "ref": "Deuteronomy 34", "label": "Death of Moses" } ] },
+
+  { "id": "boaz", "name": "Boaz", "lineage": "judah", "tier": 3,
+    "summary": "A wealthy man of Bethlehem who married Ruth as kinsman-redeemer; great-grandfather of David.",
+    "references": [
+      { "ref": "Ruth 2", "label": "Ruth gleans in his field" },
+      { "ref": "Ruth 3", "label": "At the threshing floor" },
+      { "ref": "Ruth 4:1-12", "label": "The redemption" } ] },
+
+  { "id": "ruth", "name": "Ruth", "lineage": "judah", "tier": 2,
+    "summary": "A Moabite widow who stayed with her mother-in-law Naomi ('where you go I will go'), married Boaz and became David's great-grandmother.",
+    "references": [
+      { "ref": "Ruth 1", "label": "Where you go, I will go" },
+      { "ref": "Ruth 2", "label": "Gleaning" },
+      { "ref": "Ruth 3", "label": "The threshing floor" },
+      { "ref": "Ruth 4", "label": "Marriage and Obed" } ] },
+
+  { "id": "obed", "name": "Obed", "lineage": "judah", "tier": 3,
+    "summary": "Son of Boaz and Ruth; father of Jesse.",
+    "references": [ { "ref": "Ruth 4:13-17", "label": "Birth of Obed" } ] },
+
+  { "id": "jesse", "name": "Jesse", "lineage": "judah", "tier": 3,
+    "summary": "A Bethlehemite, father of David. The 'stump of Jesse' became an image of the coming Messiah.",
+    "references": [
+      { "ref": "1 Samuel 16:1-13", "label": "Samuel visits Jesse" },
+      { "ref": "Isaiah 11:1-10", "label": "A shoot from the stump of Jesse" } ] },
+
+  { "id": "saul", "name": "Saul", "lineage": "israel", "tier": 2, "reign": [-1050, -1010], "approx": true,
+    "summary": "Israel's first king, a Benjamite anointed by Samuel. He disobeyed God, was rejected, and died in battle against the Philistines on Mount Gilboa.",
+    "references": [
+      { "ref": "1 Samuel 9", "label": "Saul meets Samuel" },
+      { "ref": "1 Samuel 10", "label": "Anointed king" },
+      { "ref": "1 Samuel 15", "label": "Rejected as king" },
+      { "ref": "1 Samuel 31", "label": "Death on Gilboa" } ] },
+
+  { "id": "jonathan", "name": "Jonathan", "lineage": "israel", "tier": 3,
+    "summary": "Saul's son and David's loyal friend; killed with his father on Mount Gilboa.",
+    "references": [
+      { "ref": "1 Samuel 18:1-4", "label": "Covenant with David" },
+      { "ref": "1 Samuel 20", "label": "Jonathan protects David" },
+      { "ref": "2 Samuel 1:17-27", "label": "David's lament" } ] },
+
+  { "id": "david", "name": "David", "meaning": "beloved", "lineage": "judah", "tier": 1, "reign": [-1010, -970], "approx": true,
+    "summary": "The shepherd who defeated Goliath, became Israel's greatest king and made Jerusalem his capital. God promised him an everlasting dynasty, and many psalms are attributed to him.",
+    "references": [
+      { "ref": "1 Samuel 16:1-13", "label": "Anointed by Samuel" },
+      { "ref": "1 Samuel 17", "label": "David and Goliath" },
+      { "ref": "2 Samuel 5:1-10", "label": "King over all Israel" },
+      { "ref": "2 Samuel 7", "label": "The Davidic covenant" },
+      { "ref": "2 Samuel 11", "label": "David and Bathsheba" },
+      { "ref": "Psalm 51", "label": "Prayer of repentance" } ] },
+
+  { "id": "bathsheba", "name": "Bathsheba", "lineage": "judah", "tier": 3,
+    "summary": "Wife of Uriah, taken by David. She later became queen mother and secured the throne for her son Solomon.",
+    "references": [
+      { "ref": "2 Samuel 11", "label": "David and Bathsheba" },
+      { "ref": "2 Samuel 12:15-25", "label": "Birth of Solomon" },
+      { "ref": "1 Kings 1:11-31", "label": "Solomon made king" } ] },
+
+  { "id": "solomon", "name": "Solomon", "meaning": "peace", "lineage": "judah", "tier": 1, "reign": [-970, -931], "approx": true,
+    "summary": "Son of David and Bathsheba, famed for wisdom and wealth; he built the First Temple in Jerusalem. His foreign wives turned his heart from God, and the kingdom split after his death.",
+    "references": [
+      { "ref": "1 Kings 3", "label": "Solomon asks for wisdom" },
+      { "ref": "1 Kings 6", "label": "Building the Temple" },
+      { "ref": "1 Kings 8:22-30", "label": "Prayer of dedication" },
+      { "ref": "1 Kings 10:1-13", "label": "The Queen of Sheba" },
+      { "ref": "1 Kings 11:1-13", "label": "Solomon turns away" } ] },
+
+  { "id": "rehoboam", "name": "Rehoboam", "lineage": "judah", "tier": 2, "reign": [-931, -913], "approx": true,
+    "summary": "Solomon's son. His harsh answer to the people caused the ten northern tribes to break away, and he became the first king of Judah.",
+    "references": [
+      { "ref": "1 Kings 12:1-24", "label": "The kingdom divides" },
+      { "ref": "1 Kings 14:21-31", "label": "Rehoboam's reign" } ] },
+
+  { "id": "jeroboam", "name": "Jeroboam I", "lineage": "israel", "tier": 2, "reign": [-931, -910], "approx": true,
+    "summary": "An Ephraimite official who became the first king of the northern kingdom of Israel and set up golden calves at Bethel and Dan.",
+    "references": [
+      { "ref": "1 Kings 11:26-40", "label": "Ahijah's prophecy" },
+      { "ref": "1 Kings 12:25-33", "label": "Golden calves" } ] },
+
+  { "id": "hezekiah", "name": "Hezekiah", "lineage": "judah", "tier": 2, "reign": [-716, -687], "approx": true,
+    "summary": "A reforming king of Judah who trusted God when the Assyrian army besieged Jerusalem; the prophet Isaiah was his counsellor.",
+    "references": [
+      { "ref": "2 Kings 18:1-8", "label": "Hezekiah's reforms" },
+      { "ref": "2 Kings 19", "label": "Deliverance from Assyria" },
+      { "ref": "2 Kings 20:1-11", "label": "Hezekiah's illness" } ] },
+
+  { "id": "josiah", "name": "Josiah", "lineage": "judah", "tier": 2, "reign": [-640, -609], "approx": true,
+    "summary": "Became king at eight. When the Book of the Law was found in the Temple, he led Judah's greatest reform. He was killed at Megiddo.",
+    "references": [
+      { "ref": "2 Kings 22", "label": "The Book of the Law found" },
+      { "ref": "2 Kings 23:1-30", "label": "Reform and death" } ] },
+
+  { "id": "zerubbabel", "name": "Zerubbabel", "lineage": "judah", "tier": 3,
+    "summary": "Grandson of King Jehoiachin and governor of Judah, who led returning exiles and rebuilt the Temple, encouraged by Haggai and Zechariah.",
+    "references": [
+      { "ref": "Ezra 3", "label": "Rebuilding the altar and Temple" },
+      { "ref": "Haggai 2:20-23", "label": "God's signet ring" },
+      { "ref": "Zechariah 4", "label": "Not by might, but by my Spirit" } ] },
+
+  { "id": "herod", "name": "Herod the Great", "lineage": "herodian", "tier": 2, "reign": [-37, -4],
+    "summary": "Roman client king of Judea and builder of the great Temple expansion; he ordered the massacre of Bethlehem's infants.",
+    "references": [ { "ref": "Matthew 2:1-18", "label": "The Magi and the massacre" } ] },
+
+  { "id": "antipas", "name": "Herod Antipas", "lineage": "herodian", "tier": 3, "reign": [-4, 39],
+    "summary": "Son of Herod the Great and tetrarch of Galilee. He had John the Baptist beheaded and questioned Jesus during his trial.",
+    "references": [
+      { "ref": "Mark 6:14-29", "label": "Death of John the Baptist" },
+      { "ref": "Luke 23:6-12", "label": "Jesus before Herod" } ] },
+
+  { "id": "joseph_nazareth", "name": "Joseph of Nazareth", "lineage": "judah", "tier": 2,
+    "summary": "A carpenter descended from David and betrothed to Mary. Warned in dreams, he took Mary as his wife and protected the child Jesus.",
+    "references": [
+      { "ref": "Matthew 1:18-25", "label": "Joseph's dream" },
+      { "ref": "Matthew 2:13-23", "label": "Flight to Egypt" },
+      { "ref": "Luke 2:41-52", "label": "The boy Jesus in the Temple" } ] },
+
+  { "id": "mary", "name": "Mary", "lineage": "core", "tier": 1,
+    "summary": "A young woman of Nazareth to whom the angel Gabriel announced she would bear the Son of God. She stood at the cross and was with the early church.",
+    "references": [
+      { "ref": "Luke 1:26-38", "label": "The Annunciation" },
+      { "ref": "Luke 1:46-56", "label": "The Magnificat" },
+      { "ref": "Luke 2:1-20", "label": "Birth of Jesus" },
+      { "ref": "John 2:1-11", "label": "Wedding at Cana" },
+      { "ref": "John 19:25-27", "label": "At the cross" } ] },
+
+  { "id": "jesus", "name": "Jesus", "meaning": "the LORD saves", "lineage": "messiah", "tier": 1, "born": -5, "died": 30, "approx": true,
+    "summary": "Born in Bethlehem and raised in Nazareth, Jesus proclaimed the kingdom of God, taught and healed, was crucified in Jerusalem and, according to the Gospels, rose from the dead. Matthew and Luke trace his genealogy through David to Abraham and Adam.",
+    "references": [
+      { "ref": "Matthew 1:1-17", "label": "Genealogy (Matthew)" },
+      { "ref": "Luke 2:1-20", "label": "Birth" },
+      { "ref": "Matthew 5", "label": "Sermon on the Mount" },
+      { "ref": "John 19:16-30", "label": "Crucifixion" },
+      { "ref": "Luke 24:1-12", "label": "Resurrection" } ] }
+]
