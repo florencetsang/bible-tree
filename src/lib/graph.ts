@@ -35,8 +35,10 @@ for (const r of relationships) {
     push(parentsOf, r.to, { id: r.from, type: r.type, note: r.note });
     push(childrenOf, r.from, { id: r.to, type: r.type, note: r.note });
   } else if (r.type === 'descendant') {
-    // "line continues through unlisted generations": child only, never an ancestor link
+    // "line continues through unlisted generations": child link, and the ancestor
+    // is a parent link of the descendant (type kept so the drawer can show "via …")
     push(childrenOf, r.from, { id: r.to, type: r.type, note: r.note });
+    push(parentsOf, r.to, { id: r.from, type: r.type, note: r.note });
   } else {
     push(spousesOf, r.from, { id: r.to, type: r.type, note: r.note });
     push(spousesOf, r.to, { id: r.from, type: r.type, note: r.note });
