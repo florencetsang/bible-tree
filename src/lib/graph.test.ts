@@ -25,6 +25,14 @@ describe('generation-skip links', () => {
     expect(lit!.has('adam')).toBe(true);
   });
 
+  it('walks ancestors across consecutive skip links (Joseph to Adam)', () => {
+    const lit = highlightSet('joseph_nazareth', 'ancestors');
+    // Zerubbabel, Josiah, Hezekiah, Rehoboam are four generation-skip links in a row
+    for (const id of ['zerubbabel', 'josiah', 'hezekiah', 'rehoboam', 'david', 'adam']) {
+      expect(lit!.has(id), id).toBe(true);
+    }
+  });
+
   it('descendant highlighting is unchanged across a skip link', () => {
     const lit = highlightSet('adam', 'descendants');
     expect(lit!.has('enoch')).toBe(true);
