@@ -96,6 +96,10 @@ export function FamilyCanvas() {
         elementsSelectable={false}
         snapToGrid={EDIT_MODE}
         snapGrid={[10, 10]}
+        // Required: without a node handler React Flow sets pointer-events: none on non-selectable, non-draggable nodes.
+        onNodeClick={(_, n) => {
+          if (n.type === 'person') select(n.id);
+        }}
         onPaneClick={() => select(null)}
         fitView={!DEEP_LINKED}
         fitViewOptions={{ nodes: START_VIEW, padding: 0.25 }}
